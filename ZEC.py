@@ -112,7 +112,7 @@ try:
   #ENTETE()
   if len(num)<2:
    #print("Usage: python main.py phone_number",end="\n\n")
-   #print("phone_number must be write in internasional format (example: +6283174705555)")
+   #print("phone_number must be write in internasional format (example: +41762434522)")
    exit(1)
   #print(Fore.MAGENTA+"Press CTRL+C / Volume Down + C to stop",end="\n\n")
   PROFILER=SESSION(num)
